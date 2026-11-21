@@ -1,0 +1,42 @@
+[
+    {
+        "feature": "lag_1h_demand",
+        "importance": 0.408
+    },
+    {
+        "feature": "lag_24h_demand",
+        "importance": 0.1007
+    },
+    {
+        "feature": "pickup_hour",
+        "importance": 0.0869
+    },
+    {
+        "feature": "day_of_week",
+        "importance": 0.0823
+    },
+    {
+        "feature": "hour_cos",
+        "importance": 0.0731
+    },
+    {
+        "feature": "day_of_month",
+        "importance": 0.0688
+    },
+    {
+        "feature": "hour_sin",
+        "importance": 0.0622
+    },
+    {
+        "feature": "is_weekend",
+        "importance": 0.0597
+    },
+    {
+        "feature": "latitude",
+        "importance": 0.035
+    },
+    {
+        "feature": "longitude",
+        "importance": 0.0232
+    }
+]

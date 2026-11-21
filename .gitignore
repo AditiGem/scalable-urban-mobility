@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Spark & Java Temporary Files
+derby.log
+metastore_db/
+spark-warehouse/
+*.log.tmp
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs (keep logs/ directory structure, ignore rotating log files)
+logs/*.log
+!logs/.gitkeep
+
+# Processed intermediate data temporary outputs
+processed_data/_temporary/
+
+# Raw dataset (nearly 1 GB)
+dataset/
+
+# Generated and processed data
+processed_data/
+
+# Trained machine learning models
+models/
+
+# Generated reports and visualizations
+# Keep project documentation and source code
+
+# Large raw dataset in project root
+202608-citibike-tripdata_6.csv
+
+# Large datasets and generated artifacts
+dataset/
+processed_data/
+models/
+
+# Backup files
+backups/

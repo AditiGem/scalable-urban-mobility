@@ -1,0 +1,704 @@
+{
+    "temporal_analysis": {
+        "hourly": [
+            {
+                "pickup_hour": 0,
+                "total_trips": 89186,
+                "pct_share": "1.70"
+            },
+            {
+                "pickup_hour": 1,
+                "total_trips": 57382,
+                "pct_share": "1.09"
+            },
+            {
+                "pickup_hour": 2,
+                "total_trips": 36128,
+                "pct_share": "0.69"
+            },
+            {
+                "pickup_hour": 3,
+                "total_trips": 23399,
+                "pct_share": "0.45"
+            },
+            {
+                "pickup_hour": 4,
+                "total_trips": 20069,
+                "pct_share": "0.38"
+            },
+            {
+                "pickup_hour": 5,
+                "total_trips": 36149,
+                "pct_share": "0.69"
+            },
+            {
+                "pickup_hour": 6,
+                "total_trips": 94078,
+                "pct_share": "1.79"
+            },
+            {
+                "pickup_hour": 7,
+                "total_trips": 173427,
+                "pct_share": "3.31"
+            },
+            {
+                "pickup_hour": 8,
+                "total_trips": 294466,
+                "pct_share": "5.62"
+            },
+            {
+                "pickup_hour": 9,
+                "total_trips": 271198,
+                "pct_share": "5.17"
+            },
+            {
+                "pickup_hour": 10,
+                "total_trips": 236937,
+                "pct_share": "4.52"
+            },
+            {
+                "pickup_hour": 11,
+                "total_trips": 259428,
+                "pct_share": "4.95"
+            },
+            {
+                "pickup_hour": 12,
+                "total_trips": 292788,
+                "pct_share": "5.59"
+            },
+            {
+                "pickup_hour": 13,
+                "total_trips": 307333,
+                "pct_share": "5.86"
+            },
+            {
+                "pickup_hour": 14,
+                "total_trips": 315454,
+                "pct_share": "6.02"
+            },
+            {
+                "pickup_hour": 15,
+                "total_trips": 330449,
+                "pct_share": "6.30"
+            },
+            {
+                "pickup_hour": 16,
+                "total_trips": 373763,
+                "pct_share": "7.13"
+            },
+            {
+                "pickup_hour": 17,
+                "total_trips": 470472,
+                "pct_share": "8.97"
+            },
+            {
+                "pickup_hour": 18,
+                "total_trips": 432764,
+                "pct_share": "8.26"
+            },
+            {
+                "pickup_hour": 19,
+                "total_trips": 358997,
+                "pct_share": "6.85"
+            },
+            {
+                "pickup_hour": 20,
+                "total_trips": 266880,
+                "pct_share": "5.09"
+            },
+            {
+                "pickup_hour": 21,
+                "total_trips": 205781,
+                "pct_share": "3.93"
+            },
+            {
+                "pickup_hour": 22,
+                "total_trips": 168850,
+                "pct_share": "3.22"
+            },
+            {
+                "pickup_hour": 23,
+                "total_trips": 126725,
+                "pct_share": "2.42"
+            }
+        ],
+        "weekday_weekend": [
+            {
+                "day_type": "Weekend",
+                "total_trips": 1748246,
+                "distinct_days": 10,
+                "avg_daily_trips": 174825.0,
+                "avg_duration_min": 15.89
+            },
+            {
+                "day_type": "Weekday",
+                "total_trips": 3493857,
+                "distinct_days": 22,
+                "avg_daily_trips": 158812.0,
+                "avg_duration_min": 12.83
+            }
+        ],
+        "day_of_week": [
+            {
+                "day_of_week": 1,
+                "day_name": "Sun",
+                "total_trips": 775553,
+                "avg_duration_min": 14.72
+            },
+            {
+                "day_of_week": 2,
+                "day_name": "Mon",
+                "total_trips": 746946,
+                "avg_duration_min": 12.71
+            },
+            {
+                "day_of_week": 3,
+                "day_name": "Tue",
+                "total_trips": 717448,
+                "avg_duration_min": 12.97
+            },
+            {
+                "day_of_week": 4,
+                "day_name": "Wed",
+                "total_trips": 728287,
+                "avg_duration_min": 12.82
+            },
+            {
+                "day_of_week": 5,
+                "day_name": "Thu",
+                "total_trips": 605566,
+                "avg_duration_min": 12.35
+            },
+            {
+                "day_of_week": 6,
+                "day_name": "Fri",
+                "total_trips": 695610,
+                "avg_duration_min": 13.26
+            },
+            {
+                "day_of_week": 7,
+                "day_name": "Sat",
+                "total_trips": 972693,
+                "avg_duration_min": 16.82
+            }
+        ],
+        "diurnal_buckets": [
+            {
+                "time_period": "Midday (10-15)",
+                "total_trips": 1742389,
+                "pct_share": "33.24",
+                "avg_duration_min": 14.57
+            },
+            {
+                "time_period": "Evening Rush (16-19)",
+                "total_trips": 1635996,
+                "pct_share": "31.21",
+                "avg_duration_min": 13.97
+            },
+            {
+                "time_period": "Night / Early Morning (20-06)",
+                "total_trips": 1124627,
+                "pct_share": "21.45",
+                "avg_duration_min": 13.85
+            },
+            {
+                "time_period": "Morning Rush (07-09)",
+                "total_trips": 739091,
+                "pct_share": "14.10",
+                "avg_duration_min": 11.91
+            }
+        ],
+        "daily_trend": [
+            {
+                "pickup_date": "2026-07-31",
+                "day_name": "Fri",
+                "total_trips": 1423,
+                "avg_duration_min": 54.73
+            },
+            {
+                "pickup_date": "2026-08-01",
+                "day_name": "Sat",
+                "total_trips": 202163,
+                "avg_duration_min": 17.33
+            },
+            {
+                "pickup_date": "2026-08-02",
+                "day_name": "Sun",
+                "total_trips": 158644,
+                "avg_duration_min": 14.71
+            },
+            {
+                "pickup_date": "2026-08-03",
+                "day_name": "Mon",
+                "total_trips": 119723,
+                "avg_duration_min": 12.84
+            },
+            {
+                "pickup_date": "2026-08-04",
+                "day_name": "Tue",
+                "total_trips": 189819,
+                "avg_duration_min": 13.3
+            },
+            {
+                "pickup_date": "2026-08-05",
+                "day_name": "Wed",
+                "total_trips": 161531,
+                "avg_duration_min": 12.1
+            },
+            {
+                "pickup_date": "2026-08-06",
+                "day_name": "Thu",
+                "total_trips": 184640,
+                "avg_duration_min": 12.76
+            },
+            {
+                "pickup_date": "2026-08-07",
+                "day_name": "Fri",
+                "total_trips": 147009,
+                "avg_duration_min": 12.42
+            },
+            {
+                "pickup_date": "2026-08-08",
+                "day_name": "Sat",
+                "total_trips": 199445,
+                "avg_duration_min": 17.12
+            },
+            {
+                "pickup_date": "2026-08-09",
+                "day_name": "Sun",
+                "total_trips": 166390,
+                "avg_duration_min": 14.93
+            },
+            {
+                "pickup_date": "2026-08-10",
+                "day_name": "Mon",
+                "total_trips": 148876,
+                "avg_duration_min": 12.48
+            },
+            {
+                "pickup_date": "2026-08-11",
+                "day_name": "Tue",
+                "total_trips": 179347,
+                "avg_duration_min": 12.59
+            },
+            {
+                "pickup_date": "2026-08-12",
+                "day_name": "Wed",
+                "total_trips": 192363,
+                "avg_duration_min": 12.93
+            },
+            {
+                "pickup_date": "2026-08-13",
+                "day_name": "Thu",
+                "total_trips": 189656,
+                "avg_duration_min": 12.96
+            },
+            {
+                "pickup_date": "2026-08-14",
+                "day_name": "Fri",
+                "total_trips": 186563,
+                "avg_duration_min": 13.35
+            },
+            {
+                "pickup_date": "2026-08-15",
+                "day_name": "Sat",
+                "total_trips": 209310,
+                "avg_duration_min": 18.36
+            },
+            {
+                "pickup_date": "2026-08-16",
+                "day_name": "Sun",
+                "total_trips": 140141,
+                "avg_duration_min": 14.21
+            },
+            {
+                "pickup_date": "2026-08-17",
+                "day_name": "Mon",
+                "total_trips": 148839,
+                "avg_duration_min": 12.94
+            },
+            {
+                "pickup_date": "2026-08-18",
+                "day_name": "Tue",
+                "total_trips": 166790,
+                "avg_duration_min": 12.96
+            },
+            {
+                "pickup_date": "2026-08-19",
+                "day_name": "Wed",
+                "total_trips": 188942,
+                "avg_duration_min": 13.18
+            },
+            {
+                "pickup_date": "2026-08-20",
+                "day_name": "Thu",
+                "total_trips": 116820,
+                "avg_duration_min": 11.79
+            },
+            {
+                "pickup_date": "2026-08-21",
+                "day_name": "Fri",
+                "total_trips": 180103,
+                "avg_duration_min": 13.56
+            },
+            {
+                "pickup_date": "2026-08-22",
+                "day_name": "Sat",
+                "total_trips": 175725,
+                "avg_duration_min": 15.23
+            },
+            {
+                "pickup_date": "2026-08-23",
+                "day_name": "Sun",
+                "total_trips": 161178,
+                "avg_duration_min": 15.01
+            },
+            {
+                "pickup_date": "2026-08-24",
+                "day_name": "Mon",
+                "total_trips": 166817,
+                "avg_duration_min": 12.97
+            },
+            {
+                "pickup_date": "2026-08-25",
+                "day_name": "Tue",
+                "total_trips": 181492,
+                "avg_duration_min": 13.02
+            },
+            {
+                "pickup_date": "2026-08-26",
+                "day_name": "Wed",
+                "total_trips": 185451,
+                "avg_duration_min": 12.97
+            },
+            {
+                "pickup_date": "2026-08-27",
+                "day_name": "Thu",
+                "total_trips": 114450,
+                "avg_duration_min": 11.27
+            },
+            {
+                "pickup_date": "2026-08-28",
+                "day_name": "Fri",
+                "total_trips": 180512,
+                "avg_duration_min": 13.21
+            },
+            {
+                "pickup_date": "2026-08-29",
+                "day_name": "Sat",
+                "total_trips": 186050,
+                "avg_duration_min": 15.72
+            },
+            {
+                "pickup_date": "2026-08-30",
+                "day_name": "Sun",
+                "total_trips": 149200,
+                "avg_duration_min": 14.65
+            },
+            {
+                "pickup_date": "2026-08-31",
+                "day_name": "Mon",
+                "total_trips": 162691,
+                "avg_duration_min": 12.35
+            }
+        ]
+    },
+    "rider_and_bike_analysis": {
+        "rider_summary": [
+            {
+                "member_casual": "casual",
+                "total_trips": 1126182,
+                "pct_share": "21.48",
+                "avg_duration_min": 20.0
+            },
+            {
+                "member_casual": "member",
+                "total_trips": 4115921,
+                "pct_share": "78.52",
+                "avg_duration_min": 12.17
+            }
+        ],
+        "rider_hourly": [
+            {
+                "pickup_hour": 0,
+                "member_casual": "casual",
+                "trip_count": 25610
+            },
+            {
+                "pickup_hour": 0,
+                "member_casual": "member",
+                "trip_count": 63576
+            },
+            {
+                "pickup_hour": 1,
+                "member_casual": "casual",
+                "trip_count": 17476
+            },
+            {
+                "pickup_hour": 1,
+                "member_casual": "member",
+                "trip_count": 39906
+            },
+            {
+                "pickup_hour": 2,
+                "member_casual": "casual",
+                "trip_count": 11451
+            },
+            {
+                "pickup_hour": 2,
+                "member_casual": "member",
+                "trip_count": 24677
+            },
+            {
+                "pickup_hour": 3,
+                "member_casual": "casual",
+                "trip_count": 7492
+            },
+            {
+                "pickup_hour": 3,
+                "member_casual": "member",
+                "trip_count": 15907
+            },
+            {
+                "pickup_hour": 4,
+                "member_casual": "casual",
+                "trip_count": 5765
+            },
+            {
+                "pickup_hour": 4,
+                "member_casual": "member",
+                "trip_count": 14304
+            },
+            {
+                "pickup_hour": 5,
+                "member_casual": "casual",
+                "trip_count": 6304
+            },
+            {
+                "pickup_hour": 5,
+                "member_casual": "member",
+                "trip_count": 29845
+            },
+            {
+                "pickup_hour": 6,
+                "member_casual": "casual",
+                "trip_count": 12783
+            },
+            {
+                "pickup_hour": 6,
+                "member_casual": "member",
+                "trip_count": 81295
+            },
+            {
+                "pickup_hour": 7,
+                "member_casual": "casual",
+                "trip_count": 22514
+            },
+            {
+                "pickup_hour": 7,
+                "member_casual": "member",
+                "trip_count": 150913
+            },
+            {
+                "pickup_hour": 8,
+                "member_casual": "casual",
+                "trip_count": 35813
+            },
+            {
+                "pickup_hour": 8,
+                "member_casual": "member",
+                "trip_count": 258653
+            },
+            {
+                "pickup_hour": 9,
+                "member_casual": "casual",
+                "trip_count": 42955
+            },
+            {
+                "pickup_hour": 9,
+                "member_casual": "member",
+                "trip_count": 228243
+            },
+            {
+                "pickup_hour": 10,
+                "member_casual": "casual",
+                "trip_count": 50217
+            },
+            {
+                "pickup_hour": 10,
+                "member_casual": "member",
+                "trip_count": 186720
+            },
+            {
+                "pickup_hour": 11,
+                "member_casual": "casual",
+                "trip_count": 61557
+            },
+            {
+                "pickup_hour": 11,
+                "member_casual": "member",
+                "trip_count": 197871
+            },
+            {
+                "pickup_hour": 12,
+                "member_casual": "casual",
+                "trip_count": 71088
+            },
+            {
+                "pickup_hour": 12,
+                "member_casual": "member",
+                "trip_count": 221700
+            },
+            {
+                "pickup_hour": 13,
+                "member_casual": "casual",
+                "trip_count": 76752
+            },
+            {
+                "pickup_hour": 13,
+                "member_casual": "member",
+                "trip_count": 230581
+            },
+            {
+                "pickup_hour": 14,
+                "member_casual": "casual",
+                "trip_count": 79394
+            },
+            {
+                "pickup_hour": 14,
+                "member_casual": "member",
+                "trip_count": 236060
+            },
+            {
+                "pickup_hour": 15,
+                "member_casual": "casual",
+                "trip_count": 79776
+            },
+            {
+                "pickup_hour": 15,
+                "member_casual": "member",
+                "trip_count": 250673
+            },
+            {
+                "pickup_hour": 16,
+                "member_casual": "casual",
+                "trip_count": 83635
+            },
+            {
+                "pickup_hour": 16,
+                "member_casual": "member",
+                "trip_count": 290128
+            },
+            {
+                "pickup_hour": 17,
+                "member_casual": "casual",
+                "trip_count": 93554
+            },
+            {
+                "pickup_hour": 17,
+                "member_casual": "member",
+                "trip_count": 376918
+            },
+            {
+                "pickup_hour": 18,
+                "member_casual": "casual",
+                "trip_count": 87595
+            },
+            {
+                "pickup_hour": 18,
+                "member_casual": "member",
+                "trip_count": 345169
+            },
+            {
+                "pickup_hour": 19,
+                "member_casual": "casual",
+                "trip_count": 77004
+            },
+            {
+                "pickup_hour": 19,
+                "member_casual": "member",
+                "trip_count": 281993
+            },
+            {
+                "pickup_hour": 20,
+                "member_casual": "casual",
+                "trip_count": 57199
+            },
+            {
+                "pickup_hour": 20,
+                "member_casual": "member",
+                "trip_count": 209681
+            },
+            {
+                "pickup_hour": 21,
+                "member_casual": "casual",
+                "trip_count": 46161
+            },
+            {
+                "pickup_hour": 21,
+                "member_casual": "member",
+                "trip_count": 159620
+            },
+            {
+                "pickup_hour": 22,
+                "member_casual": "casual",
+                "trip_count": 40748
+            },
+            {
+                "pickup_hour": 22,
+                "member_casual": "member",
+                "trip_count": 128102
+            },
+            {
+                "pickup_hour": 23,
+                "member_casual": "casual",
+                "trip_count": 33339
+            },
+            {
+                "pickup_hour": 23,
+                "member_casual": "member",
+                "trip_count": 93386
+            }
+        ],
+        "bike_summary": [
+            {
+                "rideable_type": "classic_bike",
+                "total_trips": 1412323,
+                "pct_share": "26.94",
+                "avg_duration_min": 14.39
+            },
+            {
+                "rideable_type": "electric_bike",
+                "total_trips": 3829780,
+                "pct_share": "73.06",
+                "avg_duration_min": 13.66
+            }
+        ],
+        "rider_bike_cross": [
+            {
+                "member_casual": "casual",
+                "rideable_type": "classic_bike",
+                "trip_count": 273952,
+                "avg_duration_min": 24.05
+            },
+            {
+                "member_casual": "casual",
+                "rideable_type": "electric_bike",
+                "trip_count": 852230,
+                "avg_duration_min": 18.7
+            },
+            {
+                "member_casual": "member",
+                "rideable_type": "classic_bike",
+                "trip_count": 1138371,
+                "avg_duration_min": 12.06
+            },
+            {
+                "member_casual": "member",
+                "rideable_type": "electric_bike",
+                "trip_count": 2977550,
+                "avg_duration_min": 12.21
+            }
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "ingestion": {
+        "num_files": 6,
+        "total_size_mb": 976.59,
+        "total_records": 5246236,
+        "columns": [
+            "ride_id",
+            "rideable_type",
+            "started_at",
+            "ended_at",
+            "start_station_name",
+            "start_station_id",
+            "end_station_name",
+            "end_station_id",
+            "start_lat",
+            "start_lng",
+            "end_lat",
+            "end_lng",
+            "member_casual"
+        ],
+        "files": [
+            "202608-citibike-tripdata_1.csv",
+            "202608-citibike-tripdata_2.csv",
+            "202608-citibike-tripdata_3.csv",
+            "202608-citibike-tripdata_4.csv",
+            "202608-citibike-tripdata_5.csv",
+            "202608-citibike-tripdata_6.csv"
+        ]
+    },
+    "cleaning": {
+        "raw_count": 5246236,
+        "duplicates_removed": 0,
+        "cleaned_count": 5242103,
+        "removed_count": 4133,
+        "retention_rate_pct": 99.92,
+        "min_duration_filter_min": 1.0,
+        "max_duration_filter_min": 1440.0,
+        "nyc_bounds": {
+            "min_lat": 40.5,
+            "max_lat": 41.05,
+            "min_lng": -74.25,
+            "max_lng": -73.65
+        }
+    }
+}

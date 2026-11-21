@@ -1,0 +1,428 @@
+{
+    "total_unique_stations": 2386,
+    "total_system_days": 32,
+    "classification_thresholds": {
+        "p30_low_medium_boundary": 415.0,
+        "p80_medium_high_boundary": 4020.0
+    },
+    "classification_breakdown": [
+        {
+            "demand_classification": "Medium Demand",
+            "count": 1193
+        },
+        {
+            "demand_classification": "Low Demand",
+            "count": 713
+        },
+        {
+            "demand_classification": "High Demand",
+            "count": 480
+        }
+    ],
+    "top_10_stations": [
+        {
+            "start_station_id": "6140.05",
+            "start_station_name": "W 21 St & 6 Ave",
+            "total_pickups": 17727,
+            "latitude": 40.74174,
+            "longitude": -73.994156,
+            "avg_hourly_demand": 23.08,
+            "avg_trip_duration_min": 10.48,
+            "demand_classification": "High Demand"
+        },
+        {
+            "start_station_id": "6233.04",
+            "start_station_name": "Pier 61 at Chelsea Piers",
+            "total_pickups": 16752,
+            "latitude": 40.746872,
+            "longitude": -74.00821,
+            "avg_hourly_demand": 21.81,
+            "avg_trip_duration_min": 14.38,
+            "demand_classification": "High Demand"
+        },
+        {
+            "start_station_id": "5980.10",
+            "start_station_name": "E 17 St & Broadway",
+            "total_pickups": 16030,
+            "latitude": 40.737006,
+            "longitude": -73.990134,
+            "avg_hourly_demand": 20.87,
+            "avg_trip_duration_min": 13.15,
+            "demand_classification": "High Demand"
+        },
+        {
+            "start_station_id": "6912.01",
+            "start_station_name": "7 Ave & Central Park South",
+            "total_pickups": 15312,
+            "latitude": 40.766741,
+            "longitude": -73.979069,
+            "avg_hourly_demand": 19.94,
+            "avg_trip_duration_min": 27.09,
+            "demand_classification": "High Demand"
+        },
+        {
+            "start_station_id": "6331.01",
+            "start_station_name": "W 31 St & 7 Ave",
+            "total_pickups": 15189,
+            "latitude": 40.749156,
+            "longitude": -73.9916,
+            "avg_hourly_demand": 19.78,
+            "avg_trip_duration_min": 12.2,
+            "demand_classification": "High Demand"
+        },
+        {
+            "start_station_id": "5905.12",
+            "start_station_name": "Broadway & E 14 St",
+            "total_pickups": 14869,
+            "latitude": 40.734546,
+            "longitude": -73.990741,
+            "avg_hourly_demand": 19.36,
+            "avg_trip_duration_min": 12.04,
+            "demand_classification": "High Demand"
+        },
+        {
+            "start_station_id": "6492.08",
+            "start_station_name": "9 Ave & W 33 St",
+            "total_pickups": 14471,
+            "latitude": 40.752568,
+            "longitude": -73.996765,
+            "avg_hourly_demand": 18.84,
+            "avg_trip_duration_min": 12.11,
+            "demand_classification": "High Demand"
+        },
+        {
+            "start_station_id": "6948.10",
+            "start_station_name": "Broadway & W 58 St",
+            "total_pickups": 14396,
+            "latitude": 40.766953,
+            "longitude": -73.981693,
+            "avg_hourly_demand": 18.74,
+            "avg_trip_duration_min": 19.31,
+            "demand_classification": "High Demand"
+        },
+        {
+            "start_station_id": "5905.14",
+            "start_station_name": "University Pl & E 14 St",
+            "total_pickups": 14156,
+            "latitude": 40.734814,
+            "longitude": -73.992085,
+            "avg_hourly_demand": 18.43,
+            "avg_trip_duration_min": 11.81,
+            "demand_classification": "High Demand"
+        },
+        {
+            "start_station_id": "6726.01",
+            "start_station_name": "11 Ave & W 41 St",
+            "total_pickups": 14135,
+            "latitude": 40.760301,
+            "longitude": -73.998842,
+            "avg_hourly_demand": 18.4,
+            "avg_trip_duration_min": 12.87,
+            "demand_classification": "High Demand"
+        }
+    ],
+    "top_20_stations": [
+        {
+            "start_station_id": "6140.05",
+            "start_station_name": "W 21 St & 6 Ave",
+            "total_pickups": 17727,
+            "latitude": 40.74174,
+            "longitude": -73.994156,
+            "avg_hourly_demand": 23.08,
+            "avg_trip_duration_min": 10.48,
+            "demand_classification": "High Demand"
+        },
+        {
+            "start_station_id": "6233.04",
+            "start_station_name": "Pier 61 at Chelsea Piers",
+            "total_pickups": 16752,
+            "latitude": 40.746872,
+            "longitude": -74.00821,
+            "avg_hourly_demand": 21.81,
+            "avg_trip_duration_min": 14.38,
+            "demand_classification": "High Demand"
+        },
+        {
+            "start_station_id": "5980.10",
+            "start_station_name": "E 17 St & Broadway",
+            "total_pickups": 16030,
+            "latitude": 40.737006,
+            "longitude": -73.990134,
+            "avg_hourly_demand": 20.87,
+            "avg_trip_duration_min": 13.15,
+            "demand_classification": "High Demand"
+        },
+        {
+            "start_station_id": "6912.01",
+            "start_station_name": "7 Ave & Central Park South",
+            "total_pickups": 15312,
+            "latitude": 40.766741,
+            "longitude": -73.979069,
+            "avg_hourly_demand": 19.94,
+            "avg_trip_duration_min": 27.09,
+            "demand_classification": "High Demand"
+        },
+        {
+            "start_station_id": "6331.01",
+            "start_station_name": "W 31 St & 7 Ave",
+            "total_pickups": 15189,
+            "latitude": 40.749156,
+            "longitude": -73.9916,
+            "avg_hourly_demand": 19.78,
+            "avg_trip_duration_min": 12.2,
+            "demand_classification": "High Demand"
+        },
+        {
+            "start_station_id": "5905.12",
+            "start_station_name": "Broadway & E 14 St",
+            "total_pickups": 14869,
+            "latitude": 40.734546,
+            "longitude": -73.990741,
+            "avg_hourly_demand": 19.36,
+            "avg_trip_duration_min": 12.04,
+            "demand_classification": "High Demand"
+        },
+        {
+            "start_station_id": "6492.08",
+            "start_station_name": "9 Ave & W 33 St",
+            "total_pickups": 14471,
+            "latitude": 40.752568,
+            "longitude": -73.996765,
+            "avg_hourly_demand": 18.84,
+            "avg_trip_duration_min": 12.11,
+            "demand_classification": "High Demand"
+        },
+        {
+            "start_station_id": "6948.10",
+            "start_station_name": "Broadway & W 58 St",
+            "total_pickups": 14396,
+            "latitude": 40.766953,
+            "longitude": -73.981693,
+            "avg_hourly_demand": 18.74,
+            "avg_trip_duration_min": 19.31,
+            "demand_classification": "High Demand"
+        },
+        {
+            "start_station_id": "5905.14",
+            "start_station_name": "University Pl & E 14 St",
+            "total_pickups": 14156,
+            "latitude": 40.734814,
+            "longitude": -73.992085,
+            "avg_hourly_demand": 18.43,
+            "avg_trip_duration_min": 11.81,
+            "demand_classification": "High Demand"
+        },
+        {
+            "start_station_id": "6726.01",
+            "start_station_name": "11 Ave & W 41 St",
+            "total_pickups": 14135,
+            "latitude": 40.760301,
+            "longitude": -73.998842,
+            "avg_hourly_demand": 18.4,
+            "avg_trip_duration_min": 12.87,
+            "demand_classification": "High Demand"
+        },
+        {
+            "start_station_id": "6364.07",
+            "start_station_name": "6 Ave & W 33 St",
+            "total_pickups": 13857,
+            "latitude": 40.749013,
+            "longitude": -73.988484,
+            "avg_hourly_demand": 18.04,
+            "avg_trip_duration_min": 13.24,
+            "demand_classification": "High Demand"
+        },
+        {
+            "start_station_id": "6876.04",
+            "start_station_name": "Central Park S & 6 Ave",
+            "total_pickups": 13552,
+            "latitude": 40.765909,
+            "longitude": -73.976342,
+            "avg_hourly_demand": 17.65,
+            "avg_trip_duration_min": 28.74,
+            "demand_classification": "High Demand"
+        },
+        {
+            "start_station_id": "6157.04",
+            "start_station_name": "10 Ave & W 14 St",
+            "total_pickups": 13518,
+            "latitude": 40.741982,
+            "longitude": -74.008316,
+            "avg_hourly_demand": 17.6,
+            "avg_trip_duration_min": 18.43,
+            "demand_classification": "High Demand"
+        },
+        {
+            "start_station_id": "5308.04",
+            "start_station_name": "Metropolitan Ave & Bedford Ave",
+            "total_pickups": 13391,
+            "latitude": 40.715348,
+            "longitude": -73.960241,
+            "avg_hourly_demand": 17.44,
+            "avg_trip_duration_min": 12.64,
+            "demand_classification": "High Demand"
+        },
+        {
+            "start_station_id": "6173.08",
+            "start_station_name": "Broadway & W 25 St",
+            "total_pickups": 13357,
+            "latitude": 40.742869,
+            "longitude": -73.989186,
+            "avg_hourly_demand": 17.39,
+            "avg_trip_duration_min": 13.17,
+            "demand_classification": "High Demand"
+        },
+        {
+            "start_station_id": "5492.05",
+            "start_station_name": "Cleveland Pl & Spring St",
+            "total_pickups": 13239,
+            "latitude": 40.722104,
+            "longitude": -73.997249,
+            "avg_hourly_demand": 17.24,
+            "avg_trip_duration_min": 14.95,
+            "demand_classification": "High Demand"
+        },
+        {
+            "start_station_id": "5880.02",
+            "start_station_name": "W 4 St & 7 Ave S",
+            "total_pickups": 13185,
+            "latitude": 40.734011,
+            "longitude": -74.002939,
+            "avg_hourly_demand": 17.17,
+            "avg_trip_duration_min": 12.86,
+            "demand_classification": "High Demand"
+        },
+        {
+            "start_station_id": "6072.06",
+            "start_station_name": "Greenwich Ave & 8 Ave",
+            "total_pickups": 13138,
+            "latitude": 40.739017,
+            "longitude": -74.002638,
+            "avg_hourly_demand": 17.11,
+            "avg_trip_duration_min": 11.45,
+            "demand_classification": "High Demand"
+        },
+        {
+            "start_station_id": "5763.03",
+            "start_station_name": "Carmine St & 6 Ave",
+            "total_pickups": 12979,
+            "latitude": 40.730386,
+            "longitude": -74.00215,
+            "avg_hourly_demand": 16.9,
+            "avg_trip_duration_min": 13.26,
+            "demand_classification": "High Demand"
+        },
+        {
+            "start_station_id": "5340.01",
+            "start_station_name": "N 7 St & Driggs Ave",
+            "total_pickups": 12657,
+            "latitude": 40.716967,
+            "longitude": -73.956388,
+            "avg_hourly_demand": 16.48,
+            "avg_trip_duration_min": 10.14,
+            "demand_classification": "High Demand"
+        }
+    ],
+    "bottom_10_stations": [
+        {
+            "start_station_id": "6893.1",
+            "start_station_name": "31 Ave & Crescent St",
+            "total_pickups": 1,
+            "latitude": 40.765835,
+            "longitude": -73.926547,
+            "avg_hourly_demand": 0.0,
+            "avg_trip_duration_min": 31.67,
+            "demand_classification": "Low Demand"
+        },
+        {
+            "start_station_id": "5506.1",
+            "start_station_name": "Ave D & E 8 St",
+            "total_pickups": 1,
+            "latitude": 40.723684,
+            "longitude": -73.975748,
+            "avg_hourly_demand": 0.0,
+            "avg_trip_duration_min": 25.47,
+            "demand_classification": "Low Demand"
+        },
+        {
+            "start_station_id": "4483.1",
+            "start_station_name": "Broadway & Madison St",
+            "total_pickups": 1,
+            "latitude": 40.68822,
+            "longitude": -73.91966,
+            "avg_hourly_demand": 0.0,
+            "avg_trip_duration_min": 14.57,
+            "demand_classification": "Low Demand"
+        },
+        {
+            "start_station_id": "8249.1",
+            "start_station_name": "Walton Ave & E 171 St",
+            "total_pickups": 1,
+            "latitude": 40.840683,
+            "longitude": -73.915073,
+            "avg_hourly_demand": 0.0,
+            "avg_trip_duration_min": 31.28,
+            "demand_classification": "Low Demand"
+        },
+        {
+            "start_station_id": "3981.1",
+            "start_station_name": "Dwight St & Van Dyke St",
+            "total_pickups": 1,
+            "latitude": 40.673636,
+            "longitude": -74.011956,
+            "avg_hourly_demand": 0.0,
+            "avg_trip_duration_min": 5.35,
+            "demand_classification": "Low Demand"
+        },
+        {
+            "start_station_id": "7837.3",
+            "start_station_name": "St Nicholas Ave & W 134 St",
+            "total_pickups": 1,
+            "latitude": 40.816234,
+            "longitude": -73.948222,
+            "avg_hourly_demand": 0.0,
+            "avg_trip_duration_min": 13.37,
+            "demand_classification": "Low Demand"
+        },
+        {
+            "start_station_id": "5470.1",
+            "start_station_name": "Greenwich St & Hubert St",
+            "total_pickups": 1,
+            "latitude": 40.721319,
+            "longitude": -74.010065,
+            "avg_hourly_demand": 0.0,
+            "avg_trip_duration_min": 20.42,
+            "demand_classification": "Low Demand"
+        },
+        {
+            "start_station_id": "6923.2",
+            "start_station_name": "31 St & Newtown Ave",
+            "total_pickups": 1,
+            "latitude": 40.767549,
+            "longitude": -73.920933,
+            "avg_hourly_demand": 0.0,
+            "avg_trip_duration_min": 26.38,
+            "demand_classification": "Low Demand"
+        },
+        {
+            "start_station_id": "7111.1",
+            "start_station_name": "36 St & Ditmars Blvd",
+            "total_pickups": 1,
+            "latitude": 40.774306,
+            "longitude": -73.908335,
+            "avg_hourly_demand": 0.0,
+            "avg_trip_duration_min": 42.5,
+            "demand_classification": "Low Demand"
+        },
+        {
+            "start_station_id": "3834.1",
+            "start_station_name": "6 St & 7 Ave",
+            "total_pickups": 2,
+            "latitude": 40.668663,
+            "longitude": -73.979881,
+            "avg_hourly_demand": 0.0,
+            "avg_trip_duration_min": 4.75,
+            "demand_classification": "Low Demand"
+        }
+    ]
+}

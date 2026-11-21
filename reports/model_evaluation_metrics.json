@@ -1,0 +1,72 @@
+{
+    "best_model": "Gradient-Boosted Trees",
+    "feature_columns": [
+        "pickup_hour",
+        "hour_sin",
+        "hour_cos",
+        "day_of_week",
+        "day_of_month",
+        "is_weekend",
+        "latitude",
+        "longitude",
+        "lag_1h_demand",
+        "lag_24h_demand"
+    ],
+    "split_counts": {
+        "train": 79200,
+        "validation": 14400,
+        "test": 14400
+    },
+    "model_comparison": {
+        "Linear Regression (Baseline)": {
+            "validation": {
+                "rmse": 7.4493,
+                "mae": 4.9671,
+                "r2": 0.6447
+            },
+            "test": {
+                "test_rmse": 6.6223,
+                "test_mae": 4.5221,
+                "test_r2": 0.687
+            }
+        },
+        "Decision Tree": {
+            "validation": {
+                "rmse": 7.1291,
+                "mae": 4.7301,
+                "r2": 0.6746
+            }
+        },
+        "Random Forest": {
+            "validation": {
+                "rmse": 6.9214,
+                "mae": 4.5505,
+                "r2": 0.6932
+            }
+        },
+        "Gradient-Boosted Trees": {
+            "validation": {
+                "rmse": 6.6748,
+                "mae": 4.4474,
+                "r2": 0.7147
+            },
+            "test": {
+                "test_rmse": 6.3087,
+                "test_mae": 4.3031,
+                "test_r2": 0.7159
+            }
+        }
+    },
+    "test_evaluation": {
+        "Gradient-Boosted Trees": {
+            "test_rmse": 6.3087,
+            "test_mae": 4.3031,
+            "test_r2": 0.7159
+        },
+        "Linear Regression (Baseline)": {
+            "test_rmse": 6.6223,
+            "test_mae": 4.5221,
+            "test_r2": 0.687
+        }
+    }
+}
